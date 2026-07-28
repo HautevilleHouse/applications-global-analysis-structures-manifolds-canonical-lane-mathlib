@@ -1,0 +1,9 @@
+import applications_global_analysis_structures_manifolds_canonical_lane_mathlib.GateLemmas
+namespace HautevilleHouse
+namespace applications_global_analysis_structures_manifolds_canonical_lane_mathlib
+structure ConstrainedTheoremClosure where
+  admissible :: intro :: constraint :: consequence :: proof ::
+theorem canonical : ConstrainedTheoremClosure :=
+  ConstrainedTheoremClosure.intro
+end applications_global_analysis_structures_manifolds_canonical_lane_mathlib
+end HautevilleHouse
